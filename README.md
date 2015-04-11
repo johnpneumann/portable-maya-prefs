@@ -1,5 +1,7 @@
 # Portable Maya Prefs
 
+
+
 ## What?
 These scripts take your user preferences, including all of your scripts and shelves and either copies them to another drive or loads them from a drive you have them backed up to.
 
@@ -8,6 +10,9 @@ While I was attending college I got tired of having to manually go into the fold
 
 ## What version should I use?
 Well, you should use the version of maya that you're going to use. :) If you move from computer to computer and work on multiple versions of maya, you can use the any_version of the script. This version allows the user to type in the version of maya that they're using and it retrieves or sets the preferences based on that input. While it should work for any version of maya, I have only tested it down to 2008 and up to 2011.  (*Note to windows users* I haven't had the chance to test it on a windows machine, so if it doesn't work file an issue. Also to note, if you're using the 64 bit version, you will need to specify the version with a -x64 at the end {eg. 2011-x64 or 2010-x64}.)
+
+## Notes:
+You MUST get your user preferences before you can set them on another computer. For windows users: The preferences are saved in the same location as the script you ran. For osx users: The preferences are saved to the root directory of the drive you select in a folder called prefsBackup.
 
 ## Windows
 
